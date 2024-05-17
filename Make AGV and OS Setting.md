@@ -15,6 +15,7 @@ Old releases 의 Jetson Nano(4GB) JetPack Version 4.3 , JetBot Version 0.4.0 으
 ### 4. putty로 UART 접속
 
 아래 링크에서 putty를 다운받아 설치한다.
+
 `https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html`
 
 Serial접속을 선택하고 port 번호를 입력한 뒤 Open
@@ -26,7 +27,9 @@ Serial접속을 선택하고 port 번호를 입력한 뒤 Open
 `git clone https://github.com/waveshare/JETANK.git`
 
 `cd JETANK`
+
 `chmod +x config.sh`
+
 `./config.sh jetbot`
 
 reboot 후에 LCD에 연결된 IP주소 확인
@@ -36,6 +39,9 @@ reboot 후에 LCD에 연결된 IP주소 확인
 ### 6. ServoInt 설치
 
 터미널에서 아래와 같이 입력한다.
+
 `cd JETANK/`
+
 `./install.sh`
+
 `sudo python3 servoInt.py`
